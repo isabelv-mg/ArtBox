@@ -1,0 +1,77 @@
+/* Keyframes */
+
+@keyframes text {
+    0% {
+        box-shadow: none;
+        font-family: Tahoma, sans-serif;
+    }
+
+    50% {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    70% {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    100% {
+        font-family: Tahoma, sans-serif;
+    }
+}
+
+h1 {
+    animation: text 4s infinite linear 0.2s;
+    padding: 20px;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    background: lightblue;
+    color: rgb(53, 53, 53);
+}
+
+body {
+    background-color: azure;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    margin: 0%;
+    font-family: Tahoma, sans-serif;
+}
+
+img {
+    width: 360px;
+    box-shadow: 2px 3px 3px grey;
+    margin-bottom: 30px;
+    user-select: none;
+}
+
+header, main {
+    margin: 20px;
+}
+
+main {
+    padding: 30px;
+}
+
+header {
+    padding: 40px;
+    margin: 20px;
+    font-size: larger;
+    background-image: url("DEC.avif");
+
+}
+
+header > p:hover {
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 20px;
+    background-color:rgb(32, 32, 32);
+    color: grey;
+}
