@@ -34,7 +34,7 @@ h1 {
 }
 
 body {
-    background-color: azure;
+    background-color: rgb(185, 197, 218);
     color: rgb(32, 32, 32);
     text-align: center;
     margin: 0%;
@@ -75,3 +75,20 @@ footer {
     background-color:rgb(32, 32, 32);
     color: grey;
 }
+
+/* MEDIA_QUERY */
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 160px;
+    }
+
+    body {
+        padding: 5px;
+    }
+
+    header {
+        font-size: smaller;
+    }
+}
+
